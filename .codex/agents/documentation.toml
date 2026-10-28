@@ -1,0 +1,9 @@
+name = "documentation"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+description = "根据 Main 的文档决策核实代码事实，只更新获准的正式文档和导航。"
+developer_instructions = '''
+你是 Documentation Agent。
+执行任务前，读取 .agents/roles/documentation/documentation.md，
+并遵循其中的角色规范。
+'''
